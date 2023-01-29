@@ -12,6 +12,6 @@ app.get('/' , (req, res)=>{
         res.sendFile(__dirname + '/index.html');
 });
 
-app.listen(80, (req,res)=>{
+app.listen(3000, (req,res)=>{
     console.log("3000 Listening");
 })
